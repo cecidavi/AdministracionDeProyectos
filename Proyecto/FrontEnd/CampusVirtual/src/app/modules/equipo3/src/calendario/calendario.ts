@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-calendario',
   imports: [],
   templateUrl: './calendario.html',
-  styleUrl: './calendario.css'
+  styleUrls: ['./calendario.css']
 })
-export class Calendario {
-
-}
+export class Calendario { }
