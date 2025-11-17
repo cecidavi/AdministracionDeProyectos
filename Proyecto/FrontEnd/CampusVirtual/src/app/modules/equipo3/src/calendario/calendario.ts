@@ -4,8 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-calendario',
   imports: [],
   templateUrl: './calendario.html',
-  styleUrl: './calendario.css'
+  styleUrls: ['./calendario.css']
 })
+<<<<<<< HEAD:Proyecto/FrontEnd/CampusVirtual/src/app/modules/equipo3/src/deportes/calendario/calendario.ts
 export class Calendario {
 partidos = [
     {
@@ -28,3 +29,6 @@ partidos = [
     }
   ];
 }
+=======
+export class Calendario { }
+>>>>>>> d61822f36e4b5f4c63f917d4953326aeea53711f:Proyecto/FrontEnd/CampusVirtual/src/app/modules/equipo3/src/calendario/calendario.ts
