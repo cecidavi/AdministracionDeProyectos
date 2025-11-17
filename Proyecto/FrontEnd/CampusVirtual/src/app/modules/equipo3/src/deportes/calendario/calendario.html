@@ -1,1 +1,21 @@
-<p>calendario works!</p>
+<div class="cal-container">
+
+  <h2 class="cal-title">Calendario de Juegos</h2>
+
+  <div class="cal-buttons">
+    <button class="btn btn-primary">Agregar Partido</button>
+    <button class="btn btn-secondary">Ver Estadísticas</button>
+  </div>
+
+  <div class="cal-list">
+    <div class="cal-item" *ngFor="let game of partidos">
+      <div class="cal-date">{{ game.fecha }}</div>
+      <div class="cal-info">
+        <strong>{{ game.equipoA }}</strong> vs <strong>{{ game.equipoB }}</strong>
+        <span class="cal-hour">{{ game.hora }}</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
